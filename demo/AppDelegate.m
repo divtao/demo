@@ -20,6 +20,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
     
+    //初始化根视图控制器
+    ViewController * rootvc =[[ViewController alloc] init];
+    self.window.rootViewController = rootvc;
+    
     return YES;
 }
 
