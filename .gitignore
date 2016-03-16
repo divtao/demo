@@ -1,6 +1,5 @@
 # Exclue the build directory
 build/*
-
 # Exclue temp nibs and swap files
 *~.nib
 *.swp
